@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-*: initial;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-green: #b9ff66;
+    --color-smoke: #f3f3f3;
+    --font-main: 'Space Grotesk', sans-serif;
+  }
+
+.default-text {
+  @apply text-[14px] sm:text-[18px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px];}
+
+.request-btn {
+  @apply border border-black px-8 py-4 rounded-lg;
+}
